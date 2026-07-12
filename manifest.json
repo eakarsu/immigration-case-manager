@@ -1,0 +1,30 @@
+{
+  "id": "immigration-case-manager",
+  "title": "Immigration Case Manager App",
+  "industry": "Legal, Compliance & Risk",
+  "industryId": "legal-compliance-risk",
+  "specialization": "Immigration Case Manager",
+  "sourcePlatformGroup": "legal-practice-platform",
+  "sources": [
+    "AIDigitalcasemanager",
+    "AIImmigrationCaseManager",
+    "AIPatentResearchFiling",
+    "AIRefugeeAsylumCaseManager"
+  ],
+  "featureCount": 397,
+  "candidateFeatureCount": 531,
+  "eliminatedSimilarFeatures": 134,
+  "evidenceCount": 829,
+  "aiPageCount": 20,
+  "sourceAIPageCount": 21,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 32,
+    "seededRows": 489
+  },
+  "visibleFeatureCount": 71,
+  "featureVisibilityMode": "seeded-or-ai"
+}
