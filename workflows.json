@@ -1,0 +1,767 @@
+{
+  "version": 1,
+  "appId": "immigration-case-manager",
+  "workflows": [
+    {
+      "id": "client-case-intake",
+      "title": "Client and Case Intake",
+      "description": "Open a matter with identity, goals, jurisdiction, consent, conflicts, and attorney-assignment details.",
+      "fields": [
+        {
+          "key": "clientReference",
+          "label": "Client reference",
+          "type": "text",
+          "required": true,
+          "default": "CLIENT-DEMO-100"
+        },
+        {
+          "key": "matterType",
+          "label": "Matter type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Employment visa",
+            "Family petition",
+            "Humanitarian",
+            "Naturalization",
+            "Removal defense"
+          ],
+          "default": "Employment visa"
+        },
+        {
+          "key": "countryOfCitizenship",
+          "label": "Country of citizenship",
+          "type": "text",
+          "required": true,
+          "default": "Demo Country"
+        },
+        {
+          "key": "currentLocation",
+          "label": "Current location",
+          "type": "text",
+          "required": true,
+          "default": "New York, United States"
+        },
+        {
+          "key": "attorney",
+          "label": "Responsible attorney",
+          "type": "text",
+          "required": true,
+          "default": "Demo Attorney"
+        }
+      ],
+      "states": [
+        "draft",
+        "conflicts_review",
+        "accepted",
+        "closed"
+      ],
+      "transitions": [
+        {
+          "id": "client-case-intake-conflicts_review",
+          "label": "Move to conflicts review",
+          "from": [
+            "draft"
+          ],
+          "to": "conflicts_review"
+        },
+        {
+          "id": "client-case-intake-accepted",
+          "label": "Move to accepted",
+          "from": [
+            "conflicts_review"
+          ],
+          "to": "accepted"
+        },
+        {
+          "id": "client-case-intake-closed",
+          "label": "Move to closed",
+          "from": [
+            "accepted"
+          ],
+          "to": "closed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "client-case-intake-demo",
+          "state": "draft",
+          "clientReference": "CLIENT-DEMO-100",
+          "matterType": "Employment visa",
+          "countryOfCitizenship": "Demo Country",
+          "currentLocation": "New York, United States",
+          "attorney": "Demo Attorney"
+        }
+      ]
+    },
+    {
+      "id": "pathway-eligibility-analysis",
+      "title": "Pathway Eligibility Analysis",
+      "description": "Structure facts, compare potential immigration pathways, and require attorney review before a recommendation is used.",
+      "fields": [
+        {
+          "key": "clientReference",
+          "label": "Client reference",
+          "type": "text",
+          "required": true,
+          "default": "CLIENT-DEMO-100"
+        },
+        {
+          "key": "goal",
+          "label": "Immigration goal",
+          "type": "textarea",
+          "required": true,
+          "default": "Work authorization and long-term employment-based status."
+        },
+        {
+          "key": "candidatePathways",
+          "label": "Candidate pathways",
+          "type": "textarea",
+          "required": true,
+          "default": "H-1B; O-1; EB-2 NIW"
+        },
+        {
+          "key": "eligibilityConfidence",
+          "label": "Preliminary confidence",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High"
+          ],
+          "default": "Medium"
+        },
+        {
+          "key": "legalDisclaimer",
+          "label": "Review notice",
+          "type": "text",
+          "required": true,
+          "default": "Draft analysis only; attorney approval is required."
+        }
+      ],
+      "states": [
+        "facts_collected",
+        "analyzed",
+        "attorney_review",
+        "approved"
+      ],
+      "transitions": [
+        {
+          "id": "pathway-eligibility-analysis-analyzed",
+          "label": "Move to analyzed",
+          "from": [
+            "facts_collected"
+          ],
+          "to": "analyzed"
+        },
+        {
+          "id": "pathway-eligibility-analysis-attorney_review",
+          "label": "Move to attorney review",
+          "from": [
+            "analyzed"
+          ],
+          "to": "attorney_review"
+        },
+        {
+          "id": "pathway-eligibility-analysis-approved",
+          "label": "Move to approved",
+          "from": [
+            "attorney_review"
+          ],
+          "to": "approved"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "pathway-eligibility-analysis-demo",
+          "state": "facts_collected",
+          "clientReference": "CLIENT-DEMO-100",
+          "goal": "Work authorization and long-term employment-based status.",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW",
+          "eligibilityConfidence": "Medium",
+          "legalDisclaimer": "Draft analysis only; attorney approval is required."
+        }
+      ]
+    },
+    {
+      "id": "evidence-document-checklist",
+      "title": "Evidence and Document Checklist",
+      "description": "Build a matter-specific checklist, track redaction and translation needs, and approve evidence completeness.",
+      "fields": [
+        {
+          "key": "matterReference",
+          "label": "Matter reference",
+          "type": "text",
+          "required": true,
+          "default": "IMM-DEMO-100"
+        },
+        {
+          "key": "evidenceCategory",
+          "label": "Evidence category",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Identity",
+            "Status history",
+            "Employment",
+            "Education",
+            "Financial",
+            "Country conditions"
+          ],
+          "default": "Identity"
+        },
+        {
+          "key": "requiredItems",
+          "label": "Required items",
+          "type": "textarea",
+          "required": true,
+          "default": "Passport biographic page; current I-94; prior approval notices"
+        },
+        {
+          "key": "privacyHandling",
+          "label": "Privacy handling",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Local encrypted storage",
+            "Client portal pending",
+            "Redaction required"
+          ],
+          "default": "Local encrypted storage"
+        },
+        {
+          "key": "completenessPercent",
+          "label": "Completeness percent",
+          "type": "number",
+          "required": true,
+          "default": 65
+        }
+      ],
+      "states": [
+        "draft",
+        "collecting",
+        "quality_review",
+        "complete"
+      ],
+      "transitions": [
+        {
+          "id": "evidence-document-checklist-collecting",
+          "label": "Move to collecting",
+          "from": [
+            "draft"
+          ],
+          "to": "collecting"
+        },
+        {
+          "id": "evidence-document-checklist-quality_review",
+          "label": "Move to quality review",
+          "from": [
+            "collecting"
+          ],
+          "to": "quality_review"
+        },
+        {
+          "id": "evidence-document-checklist-complete",
+          "label": "Move to complete",
+          "from": [
+            "quality_review"
+          ],
+          "to": "complete"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "evidence-document-checklist-demo",
+          "state": "draft",
+          "matterReference": "IMM-DEMO-100",
+          "evidenceCategory": "Identity",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices",
+          "privacyHandling": "Local encrypted storage",
+          "completenessPercent": 65
+        }
+      ]
+    },
+    {
+      "id": "filing-deadline-tracker",
+      "title": "Filing and Deadline Tracker",
+      "description": "Track statutory, agency, evidence, and internal review dates with accountable owners and escalation status.",
+      "fields": [
+        {
+          "key": "matterReference",
+          "label": "Matter reference",
+          "type": "text",
+          "required": true,
+          "default": "IMM-DEMO-100"
+        },
+        {
+          "key": "deadlineType",
+          "label": "Deadline type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Statutory",
+            "Agency response",
+            "Evidence collection",
+            "Internal review",
+            "Hearing"
+          ],
+          "default": "Internal review"
+        },
+        {
+          "key": "dueDate",
+          "label": "Due date",
+          "type": "date",
+          "required": true,
+          "default": "2026-08-14"
+        },
+        {
+          "key": "owner",
+          "label": "Deadline owner",
+          "type": "text",
+          "required": true,
+          "default": "Demo Paralegal"
+        },
+        {
+          "key": "calendarStatus",
+          "label": "Calendar integration status",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not configured",
+            "Needs credentials",
+            "Test ready",
+            "Blocked"
+          ],
+          "default": "Not configured"
+        }
+      ],
+      "states": [
+        "scheduled",
+        "approaching",
+        "escalated",
+        "completed"
+      ],
+      "transitions": [
+        {
+          "id": "filing-deadline-tracker-approaching",
+          "label": "Move to approaching",
+          "from": [
+            "scheduled"
+          ],
+          "to": "approaching"
+        },
+        {
+          "id": "filing-deadline-tracker-escalated",
+          "label": "Move to escalated",
+          "from": [
+            "approaching"
+          ],
+          "to": "escalated"
+        },
+        {
+          "id": "filing-deadline-tracker-completed",
+          "label": "Move to completed",
+          "from": [
+            "escalated"
+          ],
+          "to": "completed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "filing-deadline-tracker-demo",
+          "state": "scheduled",
+          "matterReference": "IMM-DEMO-100",
+          "deadlineType": "Internal review",
+          "dueDate": "2026-08-14",
+          "owner": "Demo Paralegal",
+          "calendarStatus": "Not configured"
+        }
+      ]
+    },
+    {
+      "id": "rfe-response-workflow",
+      "title": "Request for Evidence Response",
+      "description": "Analyze a locally entered RFE, map each request to evidence, and route the response package through attorney approval.",
+      "fields": [
+        {
+          "key": "matterReference",
+          "label": "Matter reference",
+          "type": "text",
+          "required": true,
+          "default": "IMM-DEMO-100"
+        },
+        {
+          "key": "agencyNoticeDate",
+          "label": "Notice date",
+          "type": "date",
+          "required": true,
+          "default": "2026-07-10"
+        },
+        {
+          "key": "responseDueDate",
+          "label": "Response due date",
+          "type": "date",
+          "required": true,
+          "default": "2026-09-08"
+        },
+        {
+          "key": "requestedEvidence",
+          "label": "Requested evidence",
+          "type": "textarea",
+          "required": true,
+          "default": "Clarify specialty occupation duties and employer-employee relationship."
+        },
+        {
+          "key": "responseOwner",
+          "label": "Response owner",
+          "type": "text",
+          "required": true,
+          "default": "Demo Attorney"
+        }
+      ],
+      "states": [
+        "received",
+        "issue_mapped",
+        "drafted",
+        "attorney_approved",
+        "ready"
+      ],
+      "transitions": [
+        {
+          "id": "rfe-response-workflow-issue_mapped",
+          "label": "Move to issue mapped",
+          "from": [
+            "received"
+          ],
+          "to": "issue_mapped"
+        },
+        {
+          "id": "rfe-response-workflow-drafted",
+          "label": "Move to drafted",
+          "from": [
+            "issue_mapped"
+          ],
+          "to": "drafted"
+        },
+        {
+          "id": "rfe-response-workflow-attorney_approved",
+          "label": "Move to attorney approved",
+          "from": [
+            "drafted"
+          ],
+          "to": "attorney_approved"
+        },
+        {
+          "id": "rfe-response-workflow-ready",
+          "label": "Move to ready",
+          "from": [
+            "attorney_approved"
+          ],
+          "to": "ready"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "rfe-response-workflow-demo",
+          "state": "received",
+          "matterReference": "IMM-DEMO-100",
+          "agencyNoticeDate": "2026-07-10",
+          "responseDueDate": "2026-09-08",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship.",
+          "responseOwner": "Demo Attorney"
+        }
+      ]
+    },
+    {
+      "id": "interview-hearing-preparation",
+      "title": "Interview and Hearing Preparation",
+      "description": "Create a reviewed preparation plan with themes, practice questions, evidence references, and logistics.",
+      "fields": [
+        {
+          "key": "matterReference",
+          "label": "Matter reference",
+          "type": "text",
+          "required": true,
+          "default": "IMM-DEMO-100"
+        },
+        {
+          "key": "eventType",
+          "label": "Event type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Agency interview",
+            "Consular interview",
+            "Master hearing",
+            "Individual hearing"
+          ],
+          "default": "Agency interview"
+        },
+        {
+          "key": "eventDate",
+          "label": "Event date",
+          "type": "date",
+          "required": true,
+          "default": "2026-10-05"
+        },
+        {
+          "key": "focusAreas",
+          "label": "Focus areas",
+          "type": "textarea",
+          "required": true,
+          "default": "Status history; job duties; employer operations"
+        },
+        {
+          "key": "preparer",
+          "label": "Preparation owner",
+          "type": "text",
+          "required": true,
+          "default": "Demo Attorney"
+        }
+      ],
+      "states": [
+        "planned",
+        "materials_review",
+        "practice_complete",
+        "ready"
+      ],
+      "transitions": [
+        {
+          "id": "interview-hearing-preparation-materials_review",
+          "label": "Move to materials review",
+          "from": [
+            "planned"
+          ],
+          "to": "materials_review"
+        },
+        {
+          "id": "interview-hearing-preparation-practice_complete",
+          "label": "Move to practice complete",
+          "from": [
+            "materials_review"
+          ],
+          "to": "practice_complete"
+        },
+        {
+          "id": "interview-hearing-preparation-ready",
+          "label": "Move to ready",
+          "from": [
+            "practice_complete"
+          ],
+          "to": "ready"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "interview-hearing-preparation-demo",
+          "state": "planned",
+          "matterReference": "IMM-DEMO-100",
+          "eventType": "Agency interview",
+          "eventDate": "2026-10-05",
+          "focusAreas": "Status history; job duties; employer operations",
+          "preparer": "Demo Attorney"
+        }
+      ]
+    },
+    {
+      "id": "attorney-decision-gate",
+      "title": "Attorney Decision Gate",
+      "description": "Require licensed-attorney review for filing strategy, risk acceptance, client advice, and final package release.",
+      "fields": [
+        {
+          "key": "matterReference",
+          "label": "Matter reference",
+          "type": "text",
+          "required": true,
+          "default": "IMM-DEMO-100"
+        },
+        {
+          "key": "decisionType",
+          "label": "Decision type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Filing strategy",
+            "Risk acceptance",
+            "Client advice",
+            "Package release"
+          ],
+          "default": "Filing strategy"
+        },
+        {
+          "key": "recommendation",
+          "label": "Draft recommendation",
+          "type": "textarea",
+          "required": true,
+          "default": "Proceed after resolving the status-history evidence gap."
+        },
+        {
+          "key": "reviewingAttorney",
+          "label": "Reviewing attorney",
+          "type": "text",
+          "required": true,
+          "default": "Demo Attorney"
+        },
+        {
+          "key": "decisionDate",
+          "label": "Decision date",
+          "type": "date",
+          "required": true,
+          "default": "2026-08-01"
+        }
+      ],
+      "states": [
+        "assembled",
+        "attorney_review",
+        "approved",
+        "returned"
+      ],
+      "transitions": [
+        {
+          "id": "attorney-decision-gate-attorney_review",
+          "label": "Move to attorney review",
+          "from": [
+            "assembled"
+          ],
+          "to": "attorney_review"
+        },
+        {
+          "id": "attorney-decision-gate-approved",
+          "label": "Move to approved",
+          "from": [
+            "attorney_review"
+          ],
+          "to": "approved"
+        },
+        {
+          "id": "attorney-decision-gate-returned",
+          "label": "Move to returned",
+          "from": [
+            "approved"
+          ],
+          "to": "returned"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "attorney-decision-gate-demo",
+          "state": "assembled",
+          "matterReference": "IMM-DEMO-100",
+          "decisionType": "Filing strategy",
+          "recommendation": "Proceed after resolving the status-history evidence gap.",
+          "reviewingAttorney": "Demo Attorney",
+          "decisionDate": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "id": "agency-integration-readiness",
+      "title": "Agency and System Integration Readiness",
+      "description": "Assess case-management, calendar, e-signature, and agency-status adapters without implying an agency connection.",
+      "fields": [
+        {
+          "key": "integrationType",
+          "label": "Integration type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Case management",
+            "Calendar",
+            "E-signature",
+            "Agency status"
+          ],
+          "default": "Agency status"
+        },
+        {
+          "key": "provider",
+          "label": "Provider or adapter",
+          "type": "text",
+          "required": true,
+          "default": "Local status fixture"
+        },
+        {
+          "key": "environment",
+          "label": "Environment",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Local fixture",
+            "Sandbox configuration",
+            "Production configuration"
+          ],
+          "default": "Local fixture"
+        },
+        {
+          "key": "credentialStatus",
+          "label": "Credential status",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not required for fixture",
+            "Missing",
+            "Stored externally"
+          ],
+          "default": "Not required for fixture"
+        },
+        {
+          "key": "testResult",
+          "label": "Test result",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not run",
+            "Passed with fixture",
+            "Failed",
+            "Blocked"
+          ],
+          "default": "Not run"
+        }
+      ],
+      "states": [
+        "inventoried",
+        "mapped",
+        "test_ready",
+        "verified"
+      ],
+      "transitions": [
+        {
+          "id": "agency-integration-readiness-mapped",
+          "label": "Move to mapped",
+          "from": [
+            "inventoried"
+          ],
+          "to": "mapped"
+        },
+        {
+          "id": "agency-integration-readiness-test_ready",
+          "label": "Move to test ready",
+          "from": [
+            "mapped"
+          ],
+          "to": "test_ready"
+        },
+        {
+          "id": "agency-integration-readiness-verified",
+          "label": "Move to verified",
+          "from": [
+            "test_ready"
+          ],
+          "to": "verified"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "agency-integration-readiness-demo",
+          "state": "inventoried",
+          "integrationType": "Agency status",
+          "provider": "Local status fixture",
+          "environment": "Local fixture",
+          "credentialStatus": "Not required for fixture",
+          "testResult": "Not run"
+        }
+      ]
+    }
+  ]
+}
