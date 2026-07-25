@@ -88,135 +88,135 @@
           "state": "draft",
           "clientReference": "IMMIGRATIO-0001",
           "matterType": "Employment visa",
-          "countryOfCitizenship": "Demo Country — North Region — North Region",
-          "currentLocation": "New York, United States — North Region — North Region",
-          "attorney": "Demo Attorney — North Region — North Region"
+          "countryOfCitizenship": "Demo Country — North Region — North Region — North Region — North Region — North Region",
+          "currentLocation": "New York, United States — North Region — North Region — North Region — North Region — North Region",
+          "attorney": "Demo Attorney — North Region — North Region — North Region — North Region — North Region"
         },
         {
           "id": "client-case-intake-002",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0002",
           "matterType": "Family petition",
-          "countryOfCitizenship": "Demo Country — Enterprise Account — Enterprise Account",
-          "currentLocation": "New York, United States — Enterprise Account — Enterprise Account",
-          "attorney": "Demo Attorney — Enterprise Account — Enterprise Account"
+          "countryOfCitizenship": "Demo Country — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "currentLocation": "New York, United States — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "attorney": "Demo Attorney — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "client-case-intake-003",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0003",
           "matterType": "Humanitarian",
-          "countryOfCitizenship": "Demo Country — Quarterly Cycle — Quarterly Cycle",
-          "currentLocation": "New York, United States — Quarterly Cycle — Quarterly Cycle",
-          "attorney": "Demo Attorney — Quarterly Cycle — Quarterly Cycle"
+          "countryOfCitizenship": "Demo Country — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "currentLocation": "New York, United States — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "attorney": "Demo Attorney — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "client-case-intake-004",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0004",
           "matterType": "Naturalization",
-          "countryOfCitizenship": "Demo Country — Priority Queue — Priority Queue",
-          "currentLocation": "New York, United States — Priority Queue — Priority Queue",
-          "attorney": "Demo Attorney — Priority Queue — Priority Queue"
+          "countryOfCitizenship": "Demo Country — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "currentLocation": "New York, United States — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "attorney": "Demo Attorney — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "client-case-intake-005",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0005",
           "matterType": "Removal defense",
-          "countryOfCitizenship": "Demo Country — Operations Review — Operations Review",
-          "currentLocation": "New York, United States — Operations Review — Operations Review",
-          "attorney": "Demo Attorney — Operations Review — Operations Review"
+          "countryOfCitizenship": "Demo Country — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "currentLocation": "New York, United States — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "attorney": "Demo Attorney — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "client-case-intake-006",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0006",
           "matterType": "Employment visa",
-          "countryOfCitizenship": "Demo Country — Customer Request — Customer Request",
-          "currentLocation": "New York, United States — Customer Request — Customer Request",
-          "attorney": "Demo Attorney — Customer Request — Customer Request"
+          "countryOfCitizenship": "Demo Country — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "currentLocation": "New York, United States — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "attorney": "Demo Attorney — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "client-case-intake-007",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0007",
           "matterType": "Family petition",
-          "countryOfCitizenship": "Demo Country — Compliance Check — Compliance Check",
-          "currentLocation": "New York, United States — Compliance Check — Compliance Check",
-          "attorney": "Demo Attorney — Compliance Check — Compliance Check"
+          "countryOfCitizenship": "Demo Country — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "currentLocation": "New York, United States — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "attorney": "Demo Attorney — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "client-case-intake-008",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0008",
           "matterType": "Humanitarian",
-          "countryOfCitizenship": "Demo Country — Service Window — Service Window",
-          "currentLocation": "New York, United States — Service Window — Service Window",
-          "attorney": "Demo Attorney — Service Window — Service Window"
+          "countryOfCitizenship": "Demo Country — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "currentLocation": "New York, United States — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "attorney": "Demo Attorney — Service Window — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "client-case-intake-009",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0009",
           "matterType": "Naturalization",
-          "countryOfCitizenship": "Demo Country — Quality Sample — Quality Sample",
-          "currentLocation": "New York, United States — Quality Sample — Quality Sample",
-          "attorney": "Demo Attorney — Quality Sample — Quality Sample"
+          "countryOfCitizenship": "Demo Country — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "currentLocation": "New York, United States — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "attorney": "Demo Attorney — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "client-case-intake-010",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0010",
           "matterType": "Removal defense",
-          "countryOfCitizenship": "Demo Country — Management Review — Management Review",
-          "currentLocation": "New York, United States — Management Review — Management Review",
-          "attorney": "Demo Attorney — Management Review — Management Review"
+          "countryOfCitizenship": "Demo Country — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "currentLocation": "New York, United States — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "attorney": "Demo Attorney — Management Review — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "client-case-intake-011",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0011",
           "matterType": "Employment visa",
-          "countryOfCitizenship": "Demo Country — Exception Follow-up — Exception Follow-up",
-          "currentLocation": "New York, United States — Exception Follow-up — Exception Follow-up",
-          "attorney": "Demo Attorney — Exception Follow-up — Exception Follow-up"
+          "countryOfCitizenship": "Demo Country — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "currentLocation": "New York, United States — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "attorney": "Demo Attorney — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "client-case-intake-012",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0012",
           "matterType": "Family petition",
-          "countryOfCitizenship": "Demo Country — Evidence Package — Evidence Package",
-          "currentLocation": "New York, United States — Evidence Package — Evidence Package",
-          "attorney": "Demo Attorney — Evidence Package — Evidence Package"
+          "countryOfCitizenship": "Demo Country — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "currentLocation": "New York, United States — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "attorney": "Demo Attorney — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "client-case-intake-013",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0013",
           "matterType": "Humanitarian",
-          "countryOfCitizenship": "Demo Country — Planning Cycle — Planning Cycle",
-          "currentLocation": "New York, United States — Planning Cycle — Planning Cycle",
-          "attorney": "Demo Attorney — Planning Cycle — Planning Cycle"
+          "countryOfCitizenship": "Demo Country — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "currentLocation": "New York, United States — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "attorney": "Demo Attorney — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "client-case-intake-014",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0014",
           "matterType": "Naturalization",
-          "countryOfCitizenship": "Demo Country — Performance Review — Performance Review",
-          "currentLocation": "New York, United States — Performance Review — Performance Review",
-          "attorney": "Demo Attorney — Performance Review — Performance Review"
+          "countryOfCitizenship": "Demo Country — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "currentLocation": "New York, United States — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "attorney": "Demo Attorney — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "client-case-intake-015",
           "state": "draft",
           "clientReference": "IMMIGRATIO-0015",
           "matterType": "Removal defense",
-          "countryOfCitizenship": "Demo Country — Final Verification — Final Verification",
-          "currentLocation": "New York, United States — Final Verification — Final Verification",
-          "attorney": "Demo Attorney — Final Verification — Final Verification"
+          "countryOfCitizenship": "Demo Country — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "currentLocation": "New York, United States — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "attorney": "Demo Attorney — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -303,136 +303,136 @@
           "id": "pathway-eligibility-analysis-001",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0001",
-          "goal": "Work authorization and long-term employment-based status. — North Region — North Region",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — North Region — North Region",
+          "goal": "Work authorization and long-term employment-based status. — North Region — North Region — North Region — North Region — North Region",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — North Region — North Region — North Region — North Region — North Region",
           "eligibilityConfidence": "Low",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — North Region — North Region"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — North Region — North Region — North Region — North Region — North Region"
         },
         {
           "id": "pathway-eligibility-analysis-002",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0002",
-          "goal": "Work authorization and long-term employment-based status. — Enterprise Account — Enterprise Account",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Enterprise Account — Enterprise Account",
+          "goal": "Work authorization and long-term employment-based status. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "eligibilityConfidence": "Medium",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Enterprise Account — Enterprise Account"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "pathway-eligibility-analysis-003",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0003",
-          "goal": "Work authorization and long-term employment-based status. — Quarterly Cycle — Quarterly Cycle",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Quarterly Cycle — Quarterly Cycle",
+          "goal": "Work authorization and long-term employment-based status. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "eligibilityConfidence": "High",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Quarterly Cycle — Quarterly Cycle"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "pathway-eligibility-analysis-004",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0004",
-          "goal": "Work authorization and long-term employment-based status. — Priority Queue — Priority Queue",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Priority Queue — Priority Queue",
+          "goal": "Work authorization and long-term employment-based status. — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "eligibilityConfidence": "Low",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Priority Queue — Priority Queue"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "pathway-eligibility-analysis-005",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0005",
-          "goal": "Work authorization and long-term employment-based status. — Operations Review — Operations Review",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Operations Review — Operations Review",
+          "goal": "Work authorization and long-term employment-based status. — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "eligibilityConfidence": "Medium",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Operations Review — Operations Review"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "pathway-eligibility-analysis-006",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0006",
-          "goal": "Work authorization and long-term employment-based status. — Customer Request — Customer Request",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Customer Request — Customer Request",
+          "goal": "Work authorization and long-term employment-based status. — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "eligibilityConfidence": "High",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Customer Request — Customer Request"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "pathway-eligibility-analysis-007",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0007",
-          "goal": "Work authorization and long-term employment-based status. — Compliance Check — Compliance Check",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Compliance Check — Compliance Check",
+          "goal": "Work authorization and long-term employment-based status. — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "eligibilityConfidence": "Low",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Compliance Check — Compliance Check"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "pathway-eligibility-analysis-008",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0008",
-          "goal": "Work authorization and long-term employment-based status. — Service Window — Service Window",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Service Window — Service Window",
+          "goal": "Work authorization and long-term employment-based status. — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Service Window — Service Window — Service Window — Service Window — Service Window",
           "eligibilityConfidence": "Medium",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Service Window — Service Window"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Service Window — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "pathway-eligibility-analysis-009",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0009",
-          "goal": "Work authorization and long-term employment-based status. — Quality Sample — Quality Sample",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Quality Sample — Quality Sample",
+          "goal": "Work authorization and long-term employment-based status. — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "eligibilityConfidence": "High",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Quality Sample — Quality Sample"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "pathway-eligibility-analysis-010",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0010",
-          "goal": "Work authorization and long-term employment-based status. — Management Review — Management Review",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Management Review — Management Review",
+          "goal": "Work authorization and long-term employment-based status. — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Management Review — Management Review — Management Review — Management Review — Management Review",
           "eligibilityConfidence": "Low",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Management Review — Management Review"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Management Review — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "pathway-eligibility-analysis-011",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0011",
-          "goal": "Work authorization and long-term employment-based status. — Exception Follow-up — Exception Follow-up",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Exception Follow-up — Exception Follow-up",
+          "goal": "Work authorization and long-term employment-based status. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "eligibilityConfidence": "Medium",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Exception Follow-up — Exception Follow-up"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "pathway-eligibility-analysis-012",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0012",
-          "goal": "Work authorization and long-term employment-based status. — Evidence Package — Evidence Package",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Evidence Package — Evidence Package",
+          "goal": "Work authorization and long-term employment-based status. — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "eligibilityConfidence": "High",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Evidence Package — Evidence Package"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "pathway-eligibility-analysis-013",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0013",
-          "goal": "Work authorization and long-term employment-based status. — Planning Cycle — Planning Cycle",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Planning Cycle — Planning Cycle",
+          "goal": "Work authorization and long-term employment-based status. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "eligibilityConfidence": "Low",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Planning Cycle — Planning Cycle"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "pathway-eligibility-analysis-014",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0014",
-          "goal": "Work authorization and long-term employment-based status. — Performance Review — Performance Review",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Performance Review — Performance Review",
+          "goal": "Work authorization and long-term employment-based status. — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "eligibilityConfidence": "Medium",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Performance Review — Performance Review"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "pathway-eligibility-analysis-015",
           "state": "facts_collected",
           "clientReference": "IMMIGRATIO-0015",
-          "goal": "Work authorization and long-term employment-based status. — Final Verification — Final Verification",
-          "candidatePathways": "H-1B; O-1; EB-2 NIW — Final Verification — Final Verification",
+          "goal": "Work authorization and long-term employment-based status. — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "candidatePathways": "H-1B; O-1; EB-2 NIW — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "eligibilityConfidence": "High",
-          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Final Verification — Final Verification"
+          "legalDisclaimer": "Draft analysis only; attorney approval is required. — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -528,7 +528,7 @@
           "state": "draft",
           "matterReference": "IMMIGRATIO-0001",
           "evidenceCategory": "Identity",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — North Region — North Region",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — North Region — North Region — North Region — North Region — North Region",
           "privacyHandling": "Local encrypted storage",
           "completenessPercent": 65.0
         },
@@ -537,126 +537,126 @@
           "state": "draft",
           "matterReference": "IMMIGRATIO-0002",
           "evidenceCategory": "Status history",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Enterprise Account — Enterprise Account",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "privacyHandling": "Client portal pending",
-          "completenessPercent": 67.0
+          "completenessPercent": 70.0
         },
         {
           "id": "evidence-document-checklist-003",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0003",
           "evidenceCategory": "Employment",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Quarterly Cycle — Quarterly Cycle",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "privacyHandling": "Redaction required",
-          "completenessPercent": 69.0
+          "completenessPercent": 75.0
         },
         {
           "id": "evidence-document-checklist-004",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0004",
           "evidenceCategory": "Education",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Priority Queue — Priority Queue",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "privacyHandling": "Local encrypted storage",
-          "completenessPercent": 71.0
+          "completenessPercent": 80.0
         },
         {
           "id": "evidence-document-checklist-005",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0005",
           "evidenceCategory": "Financial",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Operations Review — Operations Review",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "privacyHandling": "Client portal pending",
-          "completenessPercent": 73.0
+          "completenessPercent": 85.0
         },
         {
           "id": "evidence-document-checklist-006",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0006",
           "evidenceCategory": "Country conditions",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Customer Request — Customer Request",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "privacyHandling": "Redaction required",
-          "completenessPercent": 75.0
+          "completenessPercent": 90.0
         },
         {
           "id": "evidence-document-checklist-007",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0007",
           "evidenceCategory": "Identity",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Compliance Check — Compliance Check",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "privacyHandling": "Local encrypted storage",
-          "completenessPercent": 77.0
+          "completenessPercent": 95.0
         },
         {
           "id": "evidence-document-checklist-008",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0008",
           "evidenceCategory": "Status history",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Service Window — Service Window",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Service Window — Service Window — Service Window — Service Window — Service Window",
           "privacyHandling": "Client portal pending",
-          "completenessPercent": 79.0
+          "completenessPercent": 100.0
         },
         {
           "id": "evidence-document-checklist-009",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0009",
           "evidenceCategory": "Employment",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Quality Sample — Quality Sample",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "privacyHandling": "Redaction required",
-          "completenessPercent": 81.0
+          "completenessPercent": 105.0
         },
         {
           "id": "evidence-document-checklist-010",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0010",
           "evidenceCategory": "Education",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Management Review — Management Review",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Management Review — Management Review — Management Review — Management Review — Management Review",
           "privacyHandling": "Local encrypted storage",
-          "completenessPercent": 83.0
+          "completenessPercent": 110.0
         },
         {
           "id": "evidence-document-checklist-011",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0011",
           "evidenceCategory": "Financial",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Exception Follow-up — Exception Follow-up",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "privacyHandling": "Client portal pending",
-          "completenessPercent": 85.0
+          "completenessPercent": 115.0
         },
         {
           "id": "evidence-document-checklist-012",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0012",
           "evidenceCategory": "Country conditions",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Evidence Package — Evidence Package",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "privacyHandling": "Redaction required",
-          "completenessPercent": 87.0
+          "completenessPercent": 120.0
         },
         {
           "id": "evidence-document-checklist-013",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0013",
           "evidenceCategory": "Identity",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Planning Cycle — Planning Cycle",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "privacyHandling": "Local encrypted storage",
-          "completenessPercent": 89.0
+          "completenessPercent": 125.0
         },
         {
           "id": "evidence-document-checklist-014",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0014",
           "evidenceCategory": "Status history",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Performance Review — Performance Review",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "privacyHandling": "Client portal pending",
-          "completenessPercent": 91.0
+          "completenessPercent": 130.0
         },
         {
           "id": "evidence-document-checklist-015",
           "state": "draft",
           "matterReference": "IMMIGRATIO-0015",
           "evidenceCategory": "Employment",
-          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Final Verification — Final Verification",
+          "requiredItems": "Passport biographic page; current I-94; prior approval notices — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "privacyHandling": "Redaction required",
-          "completenessPercent": 93.0
+          "completenessPercent": 135.0
         }
       ]
     },
@@ -761,7 +761,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0002",
           "deadlineType": "Agency response",
-          "dueDate": "2026-08-16",
+          "dueDate": "2026-08-19",
           "owner": "Jordan Lee",
           "calendarStatus": "Needs credentials"
         },
@@ -770,7 +770,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0003",
           "deadlineType": "Evidence collection",
-          "dueDate": "2026-08-18",
+          "dueDate": "2026-08-24",
           "owner": "Taylor Brooks",
           "calendarStatus": "Test ready"
         },
@@ -779,7 +779,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0004",
           "deadlineType": "Internal review",
-          "dueDate": "2026-08-20",
+          "dueDate": "2026-08-29",
           "owner": "Morgan Chen",
           "calendarStatus": "Blocked"
         },
@@ -788,7 +788,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0005",
           "deadlineType": "Hearing",
-          "dueDate": "2026-08-22",
+          "dueDate": "2026-09-03",
           "owner": "Riley Patel",
           "calendarStatus": "Not configured"
         },
@@ -797,7 +797,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0006",
           "deadlineType": "Statutory",
-          "dueDate": "2026-08-24",
+          "dueDate": "2026-09-08",
           "owner": "Casey Nguyen",
           "calendarStatus": "Needs credentials"
         },
@@ -806,7 +806,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0007",
           "deadlineType": "Agency response",
-          "dueDate": "2026-08-26",
+          "dueDate": "2026-09-13",
           "owner": "Cameron Diaz",
           "calendarStatus": "Test ready"
         },
@@ -815,7 +815,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0008",
           "deadlineType": "Evidence collection",
-          "dueDate": "2026-08-28",
+          "dueDate": "2026-09-18",
           "owner": "Drew Wilson",
           "calendarStatus": "Blocked"
         },
@@ -824,7 +824,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0009",
           "deadlineType": "Internal review",
-          "dueDate": "2026-08-30",
+          "dueDate": "2026-09-23",
           "owner": "Emerson Clark",
           "calendarStatus": "Not configured"
         },
@@ -833,7 +833,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0010",
           "deadlineType": "Hearing",
-          "dueDate": "2026-09-01",
+          "dueDate": "2026-09-28",
           "owner": "Hayden Kim",
           "calendarStatus": "Needs credentials"
         },
@@ -842,7 +842,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0011",
           "deadlineType": "Statutory",
-          "dueDate": "2026-09-03",
+          "dueDate": "2026-10-03",
           "owner": "Jamie Rivera",
           "calendarStatus": "Test ready"
         },
@@ -851,7 +851,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0012",
           "deadlineType": "Agency response",
-          "dueDate": "2026-09-05",
+          "dueDate": "2026-10-08",
           "owner": "Kai Thompson",
           "calendarStatus": "Blocked"
         },
@@ -860,7 +860,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0013",
           "deadlineType": "Evidence collection",
-          "dueDate": "2026-09-07",
+          "dueDate": "2026-10-13",
           "owner": "Logan Shah",
           "calendarStatus": "Not configured"
         },
@@ -869,7 +869,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0014",
           "deadlineType": "Internal review",
-          "dueDate": "2026-09-09",
+          "dueDate": "2026-10-18",
           "owner": "Parker Evans",
           "calendarStatus": "Needs credentials"
         },
@@ -878,7 +878,7 @@
           "state": "scheduled",
           "matterReference": "IMMIGRATIO-0015",
           "deadlineType": "Hearing",
-          "dueDate": "2026-09-11",
+          "dueDate": "2026-10-23",
           "owner": "Quinn Murphy",
           "calendarStatus": "Test ready"
         }
@@ -973,133 +973,133 @@
           "matterReference": "IMMIGRATIO-0001",
           "agencyNoticeDate": "2026-07-10",
           "responseDueDate": "2026-09-08",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — North Region — North Region",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — North Region — North Region — North Region — North Region — North Region",
           "responseOwner": "Avery Morgan"
         },
         {
           "id": "rfe-response-workflow-002",
           "state": "received",
           "matterReference": "IMMIGRATIO-0002",
-          "agencyNoticeDate": "2026-07-12",
-          "responseDueDate": "2026-09-10",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Enterprise Account — Enterprise Account",
+          "agencyNoticeDate": "2026-07-15",
+          "responseDueDate": "2026-09-13",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "responseOwner": "Jordan Lee"
         },
         {
           "id": "rfe-response-workflow-003",
           "state": "received",
           "matterReference": "IMMIGRATIO-0003",
-          "agencyNoticeDate": "2026-07-14",
-          "responseDueDate": "2026-09-12",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Quarterly Cycle — Quarterly Cycle",
+          "agencyNoticeDate": "2026-07-20",
+          "responseDueDate": "2026-09-18",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "responseOwner": "Taylor Brooks"
         },
         {
           "id": "rfe-response-workflow-004",
           "state": "received",
           "matterReference": "IMMIGRATIO-0004",
-          "agencyNoticeDate": "2026-07-16",
-          "responseDueDate": "2026-09-14",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Priority Queue — Priority Queue",
+          "agencyNoticeDate": "2026-07-25",
+          "responseDueDate": "2026-09-23",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "responseOwner": "Morgan Chen"
         },
         {
           "id": "rfe-response-workflow-005",
           "state": "received",
           "matterReference": "IMMIGRATIO-0005",
-          "agencyNoticeDate": "2026-07-18",
-          "responseDueDate": "2026-09-16",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Operations Review — Operations Review",
+          "agencyNoticeDate": "2026-07-30",
+          "responseDueDate": "2026-09-28",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "responseOwner": "Riley Patel"
         },
         {
           "id": "rfe-response-workflow-006",
           "state": "received",
           "matterReference": "IMMIGRATIO-0006",
-          "agencyNoticeDate": "2026-07-20",
-          "responseDueDate": "2026-09-18",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Customer Request — Customer Request",
+          "agencyNoticeDate": "2026-08-04",
+          "responseDueDate": "2026-10-03",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "responseOwner": "Casey Nguyen"
         },
         {
           "id": "rfe-response-workflow-007",
           "state": "received",
           "matterReference": "IMMIGRATIO-0007",
-          "agencyNoticeDate": "2026-07-22",
-          "responseDueDate": "2026-09-20",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Compliance Check — Compliance Check",
+          "agencyNoticeDate": "2026-08-09",
+          "responseDueDate": "2026-10-08",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "responseOwner": "Cameron Diaz"
         },
         {
           "id": "rfe-response-workflow-008",
           "state": "received",
           "matterReference": "IMMIGRATIO-0008",
-          "agencyNoticeDate": "2026-07-24",
-          "responseDueDate": "2026-09-22",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Service Window — Service Window",
+          "agencyNoticeDate": "2026-08-14",
+          "responseDueDate": "2026-10-13",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Service Window — Service Window — Service Window — Service Window — Service Window",
           "responseOwner": "Drew Wilson"
         },
         {
           "id": "rfe-response-workflow-009",
           "state": "received",
           "matterReference": "IMMIGRATIO-0009",
-          "agencyNoticeDate": "2026-07-26",
-          "responseDueDate": "2026-09-24",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Quality Sample — Quality Sample",
+          "agencyNoticeDate": "2026-08-19",
+          "responseDueDate": "2026-10-18",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "responseOwner": "Emerson Clark"
         },
         {
           "id": "rfe-response-workflow-010",
           "state": "received",
           "matterReference": "IMMIGRATIO-0010",
-          "agencyNoticeDate": "2026-07-28",
-          "responseDueDate": "2026-09-26",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Management Review — Management Review",
+          "agencyNoticeDate": "2026-08-24",
+          "responseDueDate": "2026-10-23",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Management Review — Management Review — Management Review — Management Review — Management Review",
           "responseOwner": "Hayden Kim"
         },
         {
           "id": "rfe-response-workflow-011",
           "state": "received",
           "matterReference": "IMMIGRATIO-0011",
-          "agencyNoticeDate": "2026-07-30",
-          "responseDueDate": "2026-09-28",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Exception Follow-up — Exception Follow-up",
+          "agencyNoticeDate": "2026-08-29",
+          "responseDueDate": "2026-10-28",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "responseOwner": "Jamie Rivera"
         },
         {
           "id": "rfe-response-workflow-012",
           "state": "received",
           "matterReference": "IMMIGRATIO-0012",
-          "agencyNoticeDate": "2026-08-01",
-          "responseDueDate": "2026-09-30",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Evidence Package — Evidence Package",
+          "agencyNoticeDate": "2026-09-03",
+          "responseDueDate": "2026-11-02",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "responseOwner": "Kai Thompson"
         },
         {
           "id": "rfe-response-workflow-013",
           "state": "received",
           "matterReference": "IMMIGRATIO-0013",
-          "agencyNoticeDate": "2026-08-03",
-          "responseDueDate": "2026-10-02",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Planning Cycle — Planning Cycle",
+          "agencyNoticeDate": "2026-09-08",
+          "responseDueDate": "2026-11-07",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "responseOwner": "Logan Shah"
         },
         {
           "id": "rfe-response-workflow-014",
           "state": "received",
           "matterReference": "IMMIGRATIO-0014",
-          "agencyNoticeDate": "2026-08-05",
-          "responseDueDate": "2026-10-04",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Performance Review — Performance Review",
+          "agencyNoticeDate": "2026-09-13",
+          "responseDueDate": "2026-11-12",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "responseOwner": "Parker Evans"
         },
         {
           "id": "rfe-response-workflow-015",
           "state": "received",
           "matterReference": "IMMIGRATIO-0015",
-          "agencyNoticeDate": "2026-08-07",
-          "responseDueDate": "2026-10-06",
-          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Final Verification — Final Verification",
+          "agencyNoticeDate": "2026-09-18",
+          "responseDueDate": "2026-11-17",
+          "requestedEvidence": "Clarify specialty occupation duties and employer-employee relationship. — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "responseOwner": "Quinn Murphy"
         }
       ]
@@ -1190,134 +1190,134 @@
           "matterReference": "IMMIGRATIO-0001",
           "eventType": "Agency interview",
           "eventDate": "2026-10-05",
-          "focusAreas": "Status history; job duties; employer operations — North Region — North Region",
-          "preparer": "Demo Attorney — North Region — North Region"
+          "focusAreas": "Status history; job duties; employer operations — North Region — North Region — North Region — North Region — North Region",
+          "preparer": "Demo Attorney — North Region — North Region — North Region — North Region — North Region"
         },
         {
           "id": "interview-hearing-preparation-002",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0002",
           "eventType": "Consular interview",
-          "eventDate": "2026-10-07",
-          "focusAreas": "Status history; job duties; employer operations — Enterprise Account — Enterprise Account",
-          "preparer": "Demo Attorney — Enterprise Account — Enterprise Account"
+          "eventDate": "2026-10-10",
+          "focusAreas": "Status history; job duties; employer operations — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "preparer": "Demo Attorney — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "interview-hearing-preparation-003",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0003",
           "eventType": "Master hearing",
-          "eventDate": "2026-10-09",
-          "focusAreas": "Status history; job duties; employer operations — Quarterly Cycle — Quarterly Cycle",
-          "preparer": "Demo Attorney — Quarterly Cycle — Quarterly Cycle"
+          "eventDate": "2026-10-15",
+          "focusAreas": "Status history; job duties; employer operations — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "preparer": "Demo Attorney — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "interview-hearing-preparation-004",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0004",
           "eventType": "Individual hearing",
-          "eventDate": "2026-10-11",
-          "focusAreas": "Status history; job duties; employer operations — Priority Queue — Priority Queue",
-          "preparer": "Demo Attorney — Priority Queue — Priority Queue"
+          "eventDate": "2026-10-20",
+          "focusAreas": "Status history; job duties; employer operations — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "preparer": "Demo Attorney — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "interview-hearing-preparation-005",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0005",
           "eventType": "Agency interview",
-          "eventDate": "2026-10-13",
-          "focusAreas": "Status history; job duties; employer operations — Operations Review — Operations Review",
-          "preparer": "Demo Attorney — Operations Review — Operations Review"
+          "eventDate": "2026-10-25",
+          "focusAreas": "Status history; job duties; employer operations — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "preparer": "Demo Attorney — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "interview-hearing-preparation-006",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0006",
           "eventType": "Consular interview",
-          "eventDate": "2026-10-15",
-          "focusAreas": "Status history; job duties; employer operations — Customer Request — Customer Request",
-          "preparer": "Demo Attorney — Customer Request — Customer Request"
+          "eventDate": "2026-10-30",
+          "focusAreas": "Status history; job duties; employer operations — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "preparer": "Demo Attorney — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "interview-hearing-preparation-007",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0007",
           "eventType": "Master hearing",
-          "eventDate": "2026-10-17",
-          "focusAreas": "Status history; job duties; employer operations — Compliance Check — Compliance Check",
-          "preparer": "Demo Attorney — Compliance Check — Compliance Check"
+          "eventDate": "2026-11-04",
+          "focusAreas": "Status history; job duties; employer operations — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "preparer": "Demo Attorney — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "interview-hearing-preparation-008",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0008",
           "eventType": "Individual hearing",
-          "eventDate": "2026-10-19",
-          "focusAreas": "Status history; job duties; employer operations — Service Window — Service Window",
-          "preparer": "Demo Attorney — Service Window — Service Window"
+          "eventDate": "2026-11-09",
+          "focusAreas": "Status history; job duties; employer operations — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "preparer": "Demo Attorney — Service Window — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "interview-hearing-preparation-009",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0009",
           "eventType": "Agency interview",
-          "eventDate": "2026-10-21",
-          "focusAreas": "Status history; job duties; employer operations — Quality Sample — Quality Sample",
-          "preparer": "Demo Attorney — Quality Sample — Quality Sample"
+          "eventDate": "2026-11-14",
+          "focusAreas": "Status history; job duties; employer operations — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "preparer": "Demo Attorney — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "interview-hearing-preparation-010",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0010",
           "eventType": "Consular interview",
-          "eventDate": "2026-10-23",
-          "focusAreas": "Status history; job duties; employer operations — Management Review — Management Review",
-          "preparer": "Demo Attorney — Management Review — Management Review"
+          "eventDate": "2026-11-19",
+          "focusAreas": "Status history; job duties; employer operations — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "preparer": "Demo Attorney — Management Review — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "interview-hearing-preparation-011",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0011",
           "eventType": "Master hearing",
-          "eventDate": "2026-10-25",
-          "focusAreas": "Status history; job duties; employer operations — Exception Follow-up — Exception Follow-up",
-          "preparer": "Demo Attorney — Exception Follow-up — Exception Follow-up"
+          "eventDate": "2026-11-24",
+          "focusAreas": "Status history; job duties; employer operations — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "preparer": "Demo Attorney — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "interview-hearing-preparation-012",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0012",
           "eventType": "Individual hearing",
-          "eventDate": "2026-10-27",
-          "focusAreas": "Status history; job duties; employer operations — Evidence Package — Evidence Package",
-          "preparer": "Demo Attorney — Evidence Package — Evidence Package"
+          "eventDate": "2026-11-29",
+          "focusAreas": "Status history; job duties; employer operations — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "preparer": "Demo Attorney — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "interview-hearing-preparation-013",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0013",
           "eventType": "Agency interview",
-          "eventDate": "2026-10-29",
-          "focusAreas": "Status history; job duties; employer operations — Planning Cycle — Planning Cycle",
-          "preparer": "Demo Attorney — Planning Cycle — Planning Cycle"
+          "eventDate": "2026-12-04",
+          "focusAreas": "Status history; job duties; employer operations — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "preparer": "Demo Attorney — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "interview-hearing-preparation-014",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0014",
           "eventType": "Consular interview",
-          "eventDate": "2026-10-31",
-          "focusAreas": "Status history; job duties; employer operations — Performance Review — Performance Review",
-          "preparer": "Demo Attorney — Performance Review — Performance Review"
+          "eventDate": "2026-12-09",
+          "focusAreas": "Status history; job duties; employer operations — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "preparer": "Demo Attorney — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "interview-hearing-preparation-015",
           "state": "planned",
           "matterReference": "IMMIGRATIO-0015",
           "eventType": "Master hearing",
-          "eventDate": "2026-11-02",
-          "focusAreas": "Status history; job duties; employer operations — Final Verification — Final Verification",
-          "preparer": "Demo Attorney — Final Verification — Final Verification"
+          "eventDate": "2026-12-14",
+          "focusAreas": "Status history; job duties; employer operations — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "preparer": "Demo Attorney — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -1406,8 +1406,8 @@
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0001",
           "decisionType": "Filing strategy",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — North Region — North Region",
-          "reviewingAttorney": "Demo Attorney — North Region — North Region",
+          "recommendation": "Proceed after resolving the status-history evidence gap. — North Region — North Region — North Region — North Region — North Region",
+          "reviewingAttorney": "Demo Attorney — North Region — North Region — North Region — North Region — North Region",
           "decisionDate": "2026-08-01"
         },
         {
@@ -1415,126 +1415,126 @@
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0002",
           "decisionType": "Risk acceptance",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Enterprise Account — Enterprise Account",
-          "reviewingAttorney": "Demo Attorney — Enterprise Account — Enterprise Account",
-          "decisionDate": "2026-08-03"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "reviewingAttorney": "Demo Attorney — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "decisionDate": "2026-08-06"
         },
         {
           "id": "attorney-decision-gate-003",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0003",
           "decisionType": "Client advice",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Quarterly Cycle — Quarterly Cycle",
-          "reviewingAttorney": "Demo Attorney — Quarterly Cycle — Quarterly Cycle",
-          "decisionDate": "2026-08-05"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "reviewingAttorney": "Demo Attorney — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "decisionDate": "2026-08-11"
         },
         {
           "id": "attorney-decision-gate-004",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0004",
           "decisionType": "Package release",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Priority Queue — Priority Queue",
-          "reviewingAttorney": "Demo Attorney — Priority Queue — Priority Queue",
-          "decisionDate": "2026-08-07"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "reviewingAttorney": "Demo Attorney — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "decisionDate": "2026-08-16"
         },
         {
           "id": "attorney-decision-gate-005",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0005",
           "decisionType": "Filing strategy",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Operations Review — Operations Review",
-          "reviewingAttorney": "Demo Attorney — Operations Review — Operations Review",
-          "decisionDate": "2026-08-09"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "reviewingAttorney": "Demo Attorney — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "decisionDate": "2026-08-21"
         },
         {
           "id": "attorney-decision-gate-006",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0006",
           "decisionType": "Risk acceptance",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Customer Request — Customer Request",
-          "reviewingAttorney": "Demo Attorney — Customer Request — Customer Request",
-          "decisionDate": "2026-08-11"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "reviewingAttorney": "Demo Attorney — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "decisionDate": "2026-08-26"
         },
         {
           "id": "attorney-decision-gate-007",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0007",
           "decisionType": "Client advice",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Compliance Check — Compliance Check",
-          "reviewingAttorney": "Demo Attorney — Compliance Check — Compliance Check",
-          "decisionDate": "2026-08-13"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "reviewingAttorney": "Demo Attorney — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "decisionDate": "2026-08-31"
         },
         {
           "id": "attorney-decision-gate-008",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0008",
           "decisionType": "Package release",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Service Window — Service Window",
-          "reviewingAttorney": "Demo Attorney — Service Window — Service Window",
-          "decisionDate": "2026-08-15"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "reviewingAttorney": "Demo Attorney — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "decisionDate": "2026-09-05"
         },
         {
           "id": "attorney-decision-gate-009",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0009",
           "decisionType": "Filing strategy",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Quality Sample — Quality Sample",
-          "reviewingAttorney": "Demo Attorney — Quality Sample — Quality Sample",
-          "decisionDate": "2026-08-17"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "reviewingAttorney": "Demo Attorney — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "decisionDate": "2026-09-10"
         },
         {
           "id": "attorney-decision-gate-010",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0010",
           "decisionType": "Risk acceptance",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Management Review — Management Review",
-          "reviewingAttorney": "Demo Attorney — Management Review — Management Review",
-          "decisionDate": "2026-08-19"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "reviewingAttorney": "Demo Attorney — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "decisionDate": "2026-09-15"
         },
         {
           "id": "attorney-decision-gate-011",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0011",
           "decisionType": "Client advice",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Exception Follow-up — Exception Follow-up",
-          "reviewingAttorney": "Demo Attorney — Exception Follow-up — Exception Follow-up",
-          "decisionDate": "2026-08-21"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "reviewingAttorney": "Demo Attorney — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "decisionDate": "2026-09-20"
         },
         {
           "id": "attorney-decision-gate-012",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0012",
           "decisionType": "Package release",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Evidence Package — Evidence Package",
-          "reviewingAttorney": "Demo Attorney — Evidence Package — Evidence Package",
-          "decisionDate": "2026-08-23"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "reviewingAttorney": "Demo Attorney — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "decisionDate": "2026-09-25"
         },
         {
           "id": "attorney-decision-gate-013",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0013",
           "decisionType": "Filing strategy",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Planning Cycle — Planning Cycle",
-          "reviewingAttorney": "Demo Attorney — Planning Cycle — Planning Cycle",
-          "decisionDate": "2026-08-25"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "reviewingAttorney": "Demo Attorney — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "decisionDate": "2026-09-30"
         },
         {
           "id": "attorney-decision-gate-014",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0014",
           "decisionType": "Risk acceptance",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Performance Review — Performance Review",
-          "reviewingAttorney": "Demo Attorney — Performance Review — Performance Review",
-          "decisionDate": "2026-08-27"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "reviewingAttorney": "Demo Attorney — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "decisionDate": "2026-10-05"
         },
         {
           "id": "attorney-decision-gate-015",
           "state": "assembled",
           "matterReference": "IMMIGRATIO-0015",
           "decisionType": "Client advice",
-          "recommendation": "Proceed after resolving the status-history evidence gap. — Final Verification — Final Verification",
-          "reviewingAttorney": "Demo Attorney — Final Verification — Final Verification",
-          "decisionDate": "2026-08-29"
+          "recommendation": "Proceed after resolving the status-history evidence gap. — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "reviewingAttorney": "Demo Attorney — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "decisionDate": "2026-10-10"
         }
       ]
     },
@@ -1638,7 +1638,7 @@
           "id": "agency-integration-readiness-001",
           "state": "inventoried",
           "integrationType": "Case management",
-          "provider": "Local status fixture — North Region — North Region",
+          "provider": "Local status fixture — North Region — North Region — North Region — North Region — North Region",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Not run"
@@ -1647,7 +1647,7 @@
           "id": "agency-integration-readiness-002",
           "state": "inventoried",
           "integrationType": "Calendar",
-          "provider": "Local status fixture — Enterprise Account — Enterprise Account",
+          "provider": "Local status fixture — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "environment": "Sandbox configuration",
           "credentialStatus": "Missing",
           "testResult": "Passed with fixture"
@@ -1656,7 +1656,7 @@
           "id": "agency-integration-readiness-003",
           "state": "inventoried",
           "integrationType": "E-signature",
-          "provider": "Local status fixture — Quarterly Cycle — Quarterly Cycle",
+          "provider": "Local status fixture — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "environment": "Production configuration",
           "credentialStatus": "Stored externally",
           "testResult": "Failed"
@@ -1665,7 +1665,7 @@
           "id": "agency-integration-readiness-004",
           "state": "inventoried",
           "integrationType": "Agency status",
-          "provider": "Local status fixture — Priority Queue — Priority Queue",
+          "provider": "Local status fixture — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Blocked"
@@ -1674,7 +1674,7 @@
           "id": "agency-integration-readiness-005",
           "state": "inventoried",
           "integrationType": "Case management",
-          "provider": "Local status fixture — Operations Review — Operations Review",
+          "provider": "Local status fixture — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "environment": "Sandbox configuration",
           "credentialStatus": "Missing",
           "testResult": "Not run"
@@ -1683,7 +1683,7 @@
           "id": "agency-integration-readiness-006",
           "state": "inventoried",
           "integrationType": "Calendar",
-          "provider": "Local status fixture — Customer Request — Customer Request",
+          "provider": "Local status fixture — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "environment": "Production configuration",
           "credentialStatus": "Stored externally",
           "testResult": "Passed with fixture"
@@ -1692,7 +1692,7 @@
           "id": "agency-integration-readiness-007",
           "state": "inventoried",
           "integrationType": "E-signature",
-          "provider": "Local status fixture — Compliance Check — Compliance Check",
+          "provider": "Local status fixture — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Failed"
@@ -1701,7 +1701,7 @@
           "id": "agency-integration-readiness-008",
           "state": "inventoried",
           "integrationType": "Agency status",
-          "provider": "Local status fixture — Service Window — Service Window",
+          "provider": "Local status fixture — Service Window — Service Window — Service Window — Service Window — Service Window",
           "environment": "Sandbox configuration",
           "credentialStatus": "Missing",
           "testResult": "Blocked"
@@ -1710,7 +1710,7 @@
           "id": "agency-integration-readiness-009",
           "state": "inventoried",
           "integrationType": "Case management",
-          "provider": "Local status fixture — Quality Sample — Quality Sample",
+          "provider": "Local status fixture — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "environment": "Production configuration",
           "credentialStatus": "Stored externally",
           "testResult": "Not run"
@@ -1719,7 +1719,7 @@
           "id": "agency-integration-readiness-010",
           "state": "inventoried",
           "integrationType": "Calendar",
-          "provider": "Local status fixture — Management Review — Management Review",
+          "provider": "Local status fixture — Management Review — Management Review — Management Review — Management Review — Management Review",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Passed with fixture"
@@ -1728,7 +1728,7 @@
           "id": "agency-integration-readiness-011",
           "state": "inventoried",
           "integrationType": "E-signature",
-          "provider": "Local status fixture — Exception Follow-up — Exception Follow-up",
+          "provider": "Local status fixture — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "environment": "Sandbox configuration",
           "credentialStatus": "Missing",
           "testResult": "Failed"
@@ -1737,7 +1737,7 @@
           "id": "agency-integration-readiness-012",
           "state": "inventoried",
           "integrationType": "Agency status",
-          "provider": "Local status fixture — Evidence Package — Evidence Package",
+          "provider": "Local status fixture — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "environment": "Production configuration",
           "credentialStatus": "Stored externally",
           "testResult": "Blocked"
@@ -1746,7 +1746,7 @@
           "id": "agency-integration-readiness-013",
           "state": "inventoried",
           "integrationType": "Case management",
-          "provider": "Local status fixture — Planning Cycle — Planning Cycle",
+          "provider": "Local status fixture — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Not run"
@@ -1755,7 +1755,7 @@
           "id": "agency-integration-readiness-014",
           "state": "inventoried",
           "integrationType": "Calendar",
-          "provider": "Local status fixture — Performance Review — Performance Review",
+          "provider": "Local status fixture — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "environment": "Sandbox configuration",
           "credentialStatus": "Missing",
           "testResult": "Passed with fixture"
@@ -1764,7 +1764,7 @@
           "id": "agency-integration-readiness-015",
           "state": "inventoried",
           "integrationType": "E-signature",
-          "provider": "Local status fixture — Final Verification — Final Verification",
+          "provider": "Local status fixture — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "environment": "Production configuration",
           "credentialStatus": "Stored externally",
           "testResult": "Failed"

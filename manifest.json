@@ -11,12 +11,12 @@
     "AIPatentResearchFiling",
     "AIRefugeeAsylumCaseManager"
   ],
-  "featureCount": 398,
-  "candidateFeatureCount": 543,
-  "eliminatedSimilarFeatures": 145,
-  "evidenceCount": 851,
-  "aiPageCount": 20,
-  "sourceAIPageCount": 21,
+  "featureCount": 421,
+  "candidateFeatureCount": 544,
+  "eliminatedSimilarFeatures": 123,
+  "evidenceCount": 898,
+  "aiPageCount": 39,
+  "sourceAIPageCount": 39,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 20,
     "seededRows": 300
   },
-  "visibleFeatureCount": 54,
+  "visibleFeatureCount": 79,
   "featureVisibilityMode": "seeded-or-ai"
 }
