@@ -42,6 +42,144 @@
     ]
   },
   {
+    "name": "Action Plans",
+    "canonicalKey": "action plan",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ActionPlans",
+      "/action-plans"
+    ],
+    "sourceProjects": [
+      "AIDigitalcasemanager"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/immigration-case-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "frontend/src/App.js:233",
+        "route": "/action-plans",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "frontend/src/App.js:65",
+        "route": "/action-plans",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "frontend/src/pages/ActionPlans.js",
+        "route": "/ActionPlans",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      }
+    ]
+  },
+  {
+    "name": "Advanced AI",
+    "canonicalKey": "advanced ai",
+    "aliases": [
+      "AI Advanced",
+      "AI Advanced Page",
+      "Advanced AI Tools"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/AIAdvancedPage",
+      "/AdvancedAITools",
+      "/advanced-ai",
+      "/ai-advanced"
+    ],
+    "sourceProjects": [
+      "AIContractLifecycleManager",
+      "AIImmigrationCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/contract-negotiation-assistant",
+      "legal-compliance-risk/immigration-case-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "frontend/src/App.js:97",
+        "route": "/advanced-ai",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "frontend/src/components/Layout.js:24",
+        "route": "/advanced-ai",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "frontend/src/pages/AdvancedAITools.js",
+        "route": "/AdvancedAITools",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIContractLifecycleManager",
+        "path": "backend/routes/systemChat.js:47",
+        "route": "/ai-advanced",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIContractLifecycleManager",
+        "path": "frontend/src/App.js:345",
+        "route": "/ai-advanced",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIContractLifecycleManager",
+        "path": "frontend/src/pages/AIAdvancedPage.js",
+        "route": "/AIAdvancedPage",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      }
+    ]
+  },
+  {
+    "name": "Agentic Case Manager",
+    "canonicalKey": "agentic case",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/agentic-case-manager"
+    ],
+    "sourceProjects": [
+      "AIImmigrationCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/immigration-case-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "backend/src/routes/ai.js:394",
+        "route": "/agentic-case-manager",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      }
+    ]
+  },
+  {
     "name": "AI Asylum Narrative Draft",
     "canonicalKey": "ai asylum draft narrative",
     "aliases": [
@@ -201,7 +339,7 @@
   },
   {
     "name": "AI Country Conditions Summary",
-    "canonicalKey": "ai conditions country summary",
+    "canonicalKey": "ai condition country summary",
     "aliases": [
       "AI Country Conditions Summary Page"
     ],
@@ -236,10 +374,10 @@
     ]
   },
   {
-    "name": "AI Court Calendar Conflicts Page",
+    "name": "AI Court Calendar Conflicts",
     "canonicalKey": "ai calendar conflict court",
     "aliases": [
-      "AI Court Calendar Conflicts"
+      "AI Court Calendar Conflicts Page"
     ],
     "kinds": [
       "navigation",
@@ -332,10 +470,10 @@
     ]
   },
   {
-    "name": "AI Deportation Relief Options Page",
+    "name": "AI Deportation Relief Options",
     "canonicalKey": "ai deportation option relief",
     "aliases": [
-      "AI Deportation Relief Options"
+      "AI Deportation Relief Options Page"
     ],
     "kinds": [
       "navigation",
@@ -686,6 +824,244 @@
     ]
   },
   {
+    "name": "AI New Tools",
+    "canonicalKey": "ai",
+    "aliases": [
+      "AI",
+      "AI Center",
+      "AI Feature",
+      "AI Features",
+      "AI Features New",
+      "AI Features New Page",
+      "AI Features Page",
+      "AI New",
+      "AI New Page",
+      "AI Page",
+      "AI Tools"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AICenter",
+      "/AIFeature",
+      "/AIFeatures",
+      "/AIFeaturesNewPage",
+      "/AIFeaturesPage",
+      "/AINewPage",
+      "/AINewTools",
+      "/AIPage",
+      "/AITools",
+      "/ai",
+      "/ai-center",
+      "/ai-new",
+      "/ai-new-tools",
+      "/ai-tools"
+    ],
+    "sourceProjects": [
+      "AICourtReportingLegalTranscription",
+      "AIDigitalcasemanager",
+      "AIDivorceFamilyLawNavigator",
+      "AIDueDiligenceAssistant",
+      "AIESGSustainabilityReporter",
+      "AIExportControlSanctionsScreener",
+      "AIImmigrationCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/automatedatagovernance",
+      "legal-compliance-risk/due-diligence-assistant",
+      "legal-compliance-risk/firmflow-ai-merged",
+      "legal-compliance-risk/gdpr-data-mapping-privacy-manager",
+      "legal-compliance-risk/immigration-case-manager",
+      "legal-compliance-risk/tenant-rights-advisor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICourtReportingLegalTranscription",
+        "path": "client/src/App.js:735",
+        "route": "/ai",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICourtReportingLegalTranscription",
+        "path": "client/src/components/Navbar.js:9",
+        "route": "/ai",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AICourtReportingLegalTranscription",
+        "path": "client/src/components/Navbar.js:9",
+        "route": "",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AICourtReportingLegalTranscription",
+        "path": "client/src/components/Navbar.js:10",
+        "route": "",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICourtReportingLegalTranscription",
+        "path": "client/src/pages/AIFeaturesNewPage.js",
+        "route": "/AIFeaturesNewPage",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICourtReportingLegalTranscription",
+        "path": "client/src/pages/AIFeaturesPage.js",
+        "route": "/AIFeaturesPage",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICourtReportingLegalTranscription",
+        "path": "client/src/App.js:736",
+        "route": "/ai-new",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICourtReportingLegalTranscription",
+        "path": "client/src/components/Navbar.js:10",
+        "route": "/ai-new",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "frontend/src/App.js:96",
+        "route": "/ai",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "frontend/src/components/Layout.js:23",
+        "route": "/ai",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "frontend/src/pages/Dashboard.js:16",
+        "route": "/ai",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "frontend/src/pages/AIFeatures.js",
+        "route": "/AIFeatures",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "frontend/src/App.js:244",
+        "route": "/ai-new-tools",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "frontend/src/App.js:75",
+        "route": "/ai-new-tools",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "frontend/src/pages/AINewTools.js",
+        "route": "/AINewTools",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "frontend/src/App.js:243",
+        "route": "/ai-tools",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "frontend/src/App.js:74",
+        "route": "/ai-tools",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDigitalcasemanager",
+        "path": "frontend/src/pages/AITools.js",
+        "route": "/AITools",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDivorceFamilyLawNavigator",
+        "path": "client/src/App.jsx:67",
+        "route": "/ai-center",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDivorceFamilyLawNavigator",
+        "path": "client/src/pages/AICenter.jsx",
+        "route": "/AICenter",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIExportControlSanctionsScreener",
+        "path": "client/src/pages/AIFeature.js",
+        "route": "/AIFeature",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIESGSustainabilityReporter",
+        "path": "frontend/src/pages/AINewPage.js",
+        "route": "/AINewPage",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIESGSustainabilityReporter",
+        "path": "frontend/src/pages/AIPage.js",
+        "route": "/AIPage",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDueDiligenceAssistant",
+        "path": "frontend/src/App.js:96",
+        "route": "/ai-tools",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDueDiligenceAssistant",
+        "path": "frontend/src/components/Layout.js:24",
+        "route": "/ai-tools",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDueDiligenceAssistant",
+        "path": "frontend/src/pages/AITools.js",
+        "route": "/AITools",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      }
+    ]
+  },
+  {
     "name": "AI Partner Org Referral",
     "canonicalKey": "ai org partner referral",
     "aliases": [
@@ -871,144 +1247,6 @@
     ]
   },
   {
-    "name": "Action Plans",
-    "canonicalKey": "action plan",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ActionPlans",
-      "/action-plans"
-    ],
-    "sourceProjects": [
-      "AIDigitalcasemanager"
-    ],
-    "consolidatedFromApps": [
-      "legal-compliance-risk/immigration-case-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "frontend/src/App.js:233",
-        "route": "/action-plans",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "frontend/src/App.js:65",
-        "route": "/action-plans",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDigitalcasemanager",
-        "path": "frontend/src/pages/ActionPlans.js",
-        "route": "/ActionPlans",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      }
-    ]
-  },
-  {
-    "name": "Advanced AI",
-    "canonicalKey": "advanced ai",
-    "aliases": [
-      "AI Advanced",
-      "AI Advanced Page",
-      "Advanced AI Tools"
-    ],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/AIAdvancedPage",
-      "/AdvancedAITools",
-      "/advanced-ai",
-      "/ai-advanced"
-    ],
-    "sourceProjects": [
-      "AIContractLifecycleManager",
-      "AIImmigrationCaseManager"
-    ],
-    "consolidatedFromApps": [
-      "legal-compliance-risk/contract-negotiation-assistant",
-      "legal-compliance-risk/immigration-case-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIImmigrationCaseManager",
-        "path": "frontend/src/App.js:97",
-        "route": "/advanced-ai",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIImmigrationCaseManager",
-        "path": "frontend/src/components/Layout.js:24",
-        "route": "/advanced-ai",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIImmigrationCaseManager",
-        "path": "frontend/src/pages/AdvancedAITools.js",
-        "route": "/AdvancedAITools",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIContractLifecycleManager",
-        "path": "backend/routes/systemChat.js:47",
-        "route": "/ai-advanced",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIContractLifecycleManager",
-        "path": "frontend/src/App.js:345",
-        "route": "/ai-advanced",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIContractLifecycleManager",
-        "path": "frontend/src/pages/AIAdvancedPage.js",
-        "route": "/AIAdvancedPage",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
-      }
-    ]
-  },
-  {
-    "name": "Agentic Case Manager",
-    "canonicalKey": "agentic case",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/agentic-case-manager"
-    ],
-    "sourceProjects": [
-      "AIImmigrationCaseManager"
-    ],
-    "consolidatedFromApps": [
-      "legal-compliance-risk/immigration-case-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIImmigrationCaseManager",
-        "path": "backend/src/routes/ai.js:394",
-        "route": "/agentic-case-manager",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      }
-    ]
-  },
-  {
     "name": "App",
     "canonicalKey": "app",
     "aliases": [],
@@ -1101,48 +1339,6 @@
       },
       {
         "kind": "page",
-        "sourceProject": "AIConsumerComplaintResolutionAgent",
-        "path": "frontend/src/App.jsx:128",
-        "route": "*",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIConsumerComplaintResolutionAgent",
-        "path": "frontend/src/App.jsx:92",
-        "route": "*",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPublicRecordsSearchAgent",
-        "path": "backend/server.js:36",
-        "route": "*",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPublicRecordsSearchAgent",
-        "path": "frontend/src/App.js:97",
-        "route": "*",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "frontend/src/App.jsx:98",
-        "route": "*",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIeDiscoverySystem",
-        "path": "frontend/src/App.jsx:165",
-        "route": "*",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIDigitalcasemanager",
         "path": "frontend/src/App.js:202",
         "route": "*",
@@ -1182,6 +1378,48 @@
         "path": "frontend/src/App.js:187",
         "route": "/*",
         "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIConsumerComplaintResolutionAgent",
+        "path": "frontend/src/App.jsx:108",
+        "route": "*",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIConsumerComplaintResolutionAgent",
+        "path": "frontend/src/App.jsx:82",
+        "route": "*",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicRecordsSearchAgent",
+        "path": "backend/server.js:49",
+        "route": "*",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPublicRecordsSearchAgent",
+        "path": "frontend/src/App.js:97",
+        "route": "*",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "frontend/src/App.jsx:98",
+        "route": "*",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIeDiscoverySystem",
+        "path": "frontend/src/App.jsx:165",
+        "route": "*",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
       },
       {
         "kind": "page",
@@ -1241,43 +1479,8 @@
       },
       {
         "kind": "page",
-        "sourceProject": "AICannabisCultivationCompliance",
-        "path": "frontend/src/App.jsx:187",
-        "route": "*",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiRegulatoryCompliance",
-        "path": "frontend/src/App.js:102",
-        "route": "/*",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/App.tsx:60",
-        "route": "*",
-        "originApp": "legal-compliance-risk/regulatory-compliance"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIColdChainMonitoringCompliance",
-        "path": "frontend/src/App.jsx:186",
-        "route": "*",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIESGSustainabilityReporter",
-        "path": "frontend/src/App.js:104",
-        "route": "*",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIAutomatedatagovernance",
-        "path": "frontend/src/App.js:452",
+        "path": "frontend/src/App.jsx:452",
         "route": "*",
         "originApp": "legal-compliance-risk/automatedatagovernance"
       },
@@ -1308,6 +1511,69 @@
         "path": "frontend/src/App.js:163",
         "route": "/*",
         "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIColdChainMonitoringCompliance",
+        "path": "frontend/src/App.jsx:186",
+        "route": "*",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIESGSustainabilityReporter",
+        "path": "frontend/src/App.js:104",
+        "route": "*",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICannabisCultivationCompliance",
+        "path": "frontend/src/App.jsx:187",
+        "route": "*",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/App.js:102",
+        "route": "/*",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_regulatory_compliance",
+        "path": "frontend/src/App.tsx:65",
+        "route": "*",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIContractLifecycleManager",
+        "path": "frontend/src/App.js:351",
+        "route": "*",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIContractLifecycleManager",
+        "path": "frontend/src/App.js:380",
+        "route": "/*",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIContractNegotiationAssistant",
+        "path": "frontend/src/App.tsx:185",
+        "route": "*",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIStrategicSourcingNegotiation",
+        "path": "frontend/src/App.js:152",
+        "route": "*",
+        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       },
       {
         "kind": "page",
@@ -1343,40 +1609,12 @@
         "path": "frontend/src/app/page.tsx",
         "route": "/",
         "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIContractLifecycleManager",
-        "path": "frontend/src/App.js:351",
-        "route": "*",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIContractLifecycleManager",
-        "path": "frontend/src/App.js:380",
-        "route": "/*",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIContractNegotiationAssistant",
-        "path": "frontend/src/App.tsx:185",
-        "route": "*",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIStrategicSourcingNegotiation",
-        "path": "frontend/src/App.js:152",
-        "route": "*",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
       }
     ]
   },
   {
     "name": "Appeals Workflow Page",
-    "canonicalKey": "appeals workflow",
+    "canonicalKey": "appeal workflow",
     "aliases": [
       "Appeals Workflow"
     ],
@@ -1625,7 +1863,7 @@
       {
         "kind": "page",
         "sourceProject": "ai_regulatory_compliance",
-        "path": "frontend/src/App.tsx:47",
+        "path": "frontend/src/App.tsx:52",
         "route": "/assessments",
         "originApp": "legal-compliance-risk/regulatory-compliance"
       },
@@ -1639,10 +1877,10 @@
     ]
   },
   {
-    "name": "Asset Tests",
+    "name": "Asset Tests Page",
     "canonicalKey": "asset test",
     "aliases": [
-      "Asset Tests Page"
+      "Asset Tests"
     ],
     "kinds": [
       "page"
@@ -1747,7 +1985,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:641",
+        "path": "backend/routes/ai.js:637",
         "route": "/asylum-narrative-draft",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -1838,7 +2076,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:770",
+        "path": "backend/routes/ai.js:766",
         "route": "/attorney-handoff-summary",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -2014,7 +2252,7 @@
       {
         "kind": "api",
         "sourceProject": "AIGDPRDataMappingPrivacyManager",
-        "path": "backend/server.js:240",
+        "path": "backend/server.js:241",
         "route": "/api/audit-log",
         "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       },
@@ -2136,48 +2374,6 @@
       "legal-compliance-risk/vendor-contract-risk-monitor"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/brandDilutionScoring.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/ceaseDesistDrafter.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/franchiseBrandProtection.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/marketExpansionScouting.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/usptoWipoFeed.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITrademarkBrandProtectionMonitor",
-        "path": "backend/routes/visualCounterfeitDetection.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
@@ -2369,6 +2565,48 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/brandDilutionScoring.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/ceaseDesistDrafter.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/franchiseBrandProtection.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/marketExpansionScouting.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/usptoWipoFeed.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITrademarkBrandProtectionMonitor",
+        "path": "backend/routes/visualCounterfeitDetection.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIBailBondRiskAssessor",
         "path": "server/routes/crudHelper.js:192",
         "route": "/batch",
@@ -2415,55 +2653,6 @@
         "path": "backend/routes/resourceDirectory.js:63",
         "route": "/batch",
         "originApp": "legal-compliance-risk/tenant-rights-advisor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDueDiligenceAssistant",
-        "path": "backend/routes/agenticDiligence.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/due-diligence-assistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/esgControversyMonitor.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/financialDistress.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/nTierSupplyMapping.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/riskAdjustedPricing.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/supplierConsolidationEngine.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVendorRiskPerformanceScorer",
-        "path": "backend/src/routes/supplyChainNetworkRisk.js:63",
-        "route": "/batch",
-        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
       },
       {
         "kind": "api",
@@ -2548,6 +2737,55 @@
         "path": "backend/routes/supplyChainResilienceMapping.js:63",
         "route": "/batch",
         "originApp": "legal-compliance-risk/contract-negotiation-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDueDiligenceAssistant",
+        "path": "backend/routes/agenticDiligence.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/esgControversyMonitor.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/financialDistress.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/nTierSupplyMapping.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/riskAdjustedPricing.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/supplierConsolidationEngine.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVendorRiskPerformanceScorer",
+        "path": "backend/src/routes/supplyChainNetworkRisk.js:63",
+        "route": "/batch",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
       }
     ]
   },
@@ -2613,7 +2851,7 @@
   },
   {
     "name": "Beneficiaries Goals Referrals Lack AI Endpoints For Risk Pre",
-    "canonicalKey": "ai beneficiaries endpoints for goals lack pre referrals risk",
+    "canonicalKey": "ai beneficiary endpoint for goal lack pre referral risk",
     "aliases": [],
     "kinds": [
       "page"
@@ -2974,13 +3212,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIeDiscoverySystem",
-        "path": "backend/routes/costProjection.js:11",
-        "route": "/:case_id",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
         "path": "backend/routes/benefitFeat_appealsWorkflow.js:83",
         "route": "/by-case/:case_id",
@@ -3041,6 +3272,13 @@
         "path": "backend/routes/benefitFeat_tanfCalc.js:82",
         "route": "/by-case/:case_id",
         "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIeDiscoverySystem",
+        "path": "backend/routes/costProjection.js:11",
+        "route": "/:case_id",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
       }
     ]
   },
@@ -3196,44 +3434,6 @@
         "sourceProject": "AIDigitalcasemanager",
         "path": "backend/routes/customViews.js:25",
         "route": "/caseload-per-manager",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      }
-    ]
-  },
-  {
-    "name": "Cases Page",
-    "canonicalKey": "cases",
-    "aliases": [
-      "Cases View"
-    ],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/CasesPage",
-      "/Main/CasesView"
-    ],
-    "sourceProjects": [
-      "AIRefugeeAsylumCaseManager",
-      "legalForms"
-    ],
-    "consolidatedFromApps": [
-      "legal-compliance-risk/firmflow-ai-merged",
-      "legal-compliance-risk/immigration-case-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "legalForms",
-        "path": "ios/LegalPracticeAI/Views/Main/CasesView.swift",
-        "route": "/Main/CasesView",
-        "originApp": "legal-compliance-risk/firmflow-ai-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "frontend/src/pages/CasesPage.js",
-        "route": "/CasesPage",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       }
     ]
@@ -3727,7 +3927,7 @@
   },
   {
     "name": "Cf Peer Case Analytics Surfacing Anonymized",
-    "canonicalKey": "analytics anonymized case cf peer surfacing",
+    "canonicalKey": "analytic anonymized case cf peer surfacing",
     "aliases": [],
     "kinds": [
       "page"
@@ -4392,53 +4592,6 @@
     ]
   },
   {
-    "name": "Clients Page",
-    "canonicalKey": "clients",
-    "aliases": [
-      "Clients View"
-    ],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ClientsPage",
-      "/Main/ClientsView"
-    ],
-    "sourceProjects": [
-      "AIRefugeeAsylumCaseManager",
-      "AISportsAgentContractAnalyzer",
-      "legalForms"
-    ],
-    "consolidatedFromApps": [
-      "legal-compliance-risk/contract-negotiation-assistant",
-      "legal-compliance-risk/firmflow-ai-merged",
-      "legal-compliance-risk/immigration-case-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "legalForms",
-        "path": "ios/LegalPracticeAI/Views/Main/ClientsView.swift",
-        "route": "/Main/ClientsView",
-        "originApp": "legal-compliance-risk/firmflow-ai-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "frontend/src/pages/ClientsPage.js",
-        "route": "/ClientsPage",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISportsAgentContractAnalyzer",
-        "path": "frontend/src/pages/ClientsPage.jsx",
-        "route": "/ClientsPage",
-        "originApp": "legal-compliance-risk/contract-negotiation-assistant"
-      }
-    ]
-  },
-  {
     "name": "Coi Briefer Bundle",
     "canonicalKey": "briefer bundle coi",
     "aliases": [],
@@ -4460,7 +4613,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:1006",
+        "path": "backend/routes/ai.js:1002",
         "route": "/coi-briefer-bundle",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -4495,7 +4648,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:600",
+        "path": "backend/routes/ai.js:596",
         "route": "/coi-cite-memo",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -4570,7 +4723,7 @@
   },
   {
     "name": "Communications Lacks Generate Communication Plan",
-    "canonicalKey": "communication communications generate lacks plan",
+    "canonicalKey": "communication generate lack plan",
     "aliases": [],
     "kinds": [
       "page"
@@ -4622,7 +4775,7 @@
   },
   {
     "name": "Consent Benefits Renewal",
-    "canonicalKey": "benefits consent renewal",
+    "canonicalKey": "benefit consent renewal",
     "aliases": [],
     "kinds": [
       "page"
@@ -4745,7 +4898,7 @@
   },
   {
     "name": "Country Conditions Summary",
-    "canonicalKey": "conditions country summary",
+    "canonicalKey": "condition country summary",
     "aliases": [],
     "kinds": [
       "api",
@@ -4765,7 +4918,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:703",
+        "path": "backend/routes/ai.js:699",
         "route": "/country-conditions-summary",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -4858,7 +5011,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:839",
+        "path": "backend/routes/ai.js:835",
         "route": "/court-calendar-conflicts",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -4926,26 +5079,26 @@
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
       {
-        "kind": "api",
-        "sourceProject": "AIBailBondRiskAssessor",
-        "path": "server/routes/reports.js:58",
-        "route": "/court-calendar",
-        "originApp": "legal-compliance-risk/tenant-rights-advisor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIRefugeeAsylumCaseManager",
         "path": "frontend/src/pages/CourtCalendarsPage.js",
         "route": "/CourtCalendarsPage",
         "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBailBondRiskAssessor",
+        "path": "server/routes/reports.js:58",
+        "route": "/court-calendar",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
       }
     ]
   },
   {
-    "name": "Court Dates",
+    "name": "Court Dates Page",
     "canonicalKey": "court date",
     "aliases": [
-      "Court Dates Page"
+      "Court Dates"
     ],
     "kinds": [
       "api",
@@ -4973,6 +5126,13 @@
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
       {
+        "kind": "page",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "frontend/src/pages/CourtDatesPage.js",
+        "route": "/CourtDatesPage",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
         "kind": "api",
         "sourceProject": "AIBailBondRiskAssessor",
         "path": "server/routes/calendar.js:230",
@@ -4992,19 +5152,12 @@
         "path": "server/routes/calendar.js:84",
         "route": "/court-dates",
         "originApp": "legal-compliance-risk/tenant-rights-advisor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "frontend/src/pages/CourtDatesPage.js",
-        "route": "/CourtDatesPage",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
       }
     ]
   },
   {
     "name": "Court Dates Scheduler",
-    "canonicalKey": "court dates scheduler",
+    "canonicalKey": "court date scheduler",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -5147,7 +5300,7 @@
   },
   {
     "name": "Deadlines Ics",
-    "canonicalKey": "deadlines ics",
+    "canonicalKey": "deadline ics",
     "aliases": [],
     "kinds": [
       "api"
@@ -5193,7 +5346,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:1023",
+        "path": "backend/routes/ai.js:1019",
         "route": "/declaration-redliner",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -5279,7 +5432,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:714",
+        "path": "backend/routes/ai.js:710",
         "route": "/deportation-relief-options",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -5301,7 +5454,7 @@
   },
   {
     "name": "Detect Able Bodied Adult Without Dependents Status",
-    "canonicalKey": "able adult bodied dependents detect status without",
+    "canonicalKey": "able adult bodied dependent detect status without",
     "aliases": [],
     "kinds": [
       "api"
@@ -5787,7 +5940,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:814",
+        "path": "backend/routes/ai.js:810",
         "route": "/donor-impact-report",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -5854,18 +6007,18 @@
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
       {
-        "kind": "api",
-        "sourceProject": "AIGDPRDataMappingPrivacyManager",
-        "path": "backend/server.js:407",
-        "route": "/api/dsr-fulfillment/dossiers",
-        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIRefugeeAsylumCaseManager",
         "path": "frontend/src/pages/DossiersPage.js",
         "route": "/DossiersPage",
         "originApp": "legal-compliance-risk/immigration-case-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGDPRDataMappingPrivacyManager",
+        "path": "backend/server.js:408",
+        "route": "/api/dsr-fulfillment/dossiers",
+        "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
       }
     ]
   },
@@ -6150,7 +6303,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:627",
+        "path": "backend/routes/ai.js:623",
         "route": "/evidence-gap-analyze",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -6194,7 +6347,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:652",
+        "path": "backend/routes/ai.js:648",
         "route": "/executive-brief",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -6313,10 +6466,34 @@
     ]
   },
   {
-    "name": "External Feeds",
+    "name": "External Feeds Eoir Uscis Dhs",
+    "canonicalKey": "dhs eoir external feed uscis",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIRefugeeAsylumCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/immigration-case-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIRefugeeAsylumCaseManager",
+        "path": "frontend/src/components/Sidebar.js:84",
+        "route": "",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      }
+    ]
+  },
+  {
+    "name": "External Feeds Page",
     "canonicalKey": "external feed",
     "aliases": [
-      "External Feeds Page"
+      "External Feeds"
     ],
     "kinds": [
       "page"
@@ -6344,30 +6521,6 @@
         "sourceProject": "AIRefugeeAsylumCaseManager",
         "path": "frontend/src/pages/ExternalFeedsPage.js",
         "route": "/ExternalFeedsPage",
-        "originApp": "legal-compliance-risk/immigration-case-manager"
-      }
-    ]
-  },
-  {
-    "name": "External Feeds Eoir Uscis Dhs",
-    "canonicalKey": "dhs eoir external feeds uscis",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "AIRefugeeAsylumCaseManager"
-    ],
-    "consolidatedFromApps": [
-      "legal-compliance-risk/immigration-case-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "frontend/src/components/Sidebar.js:84",
-        "route": "",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       }
     ]
@@ -6445,7 +6598,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:740",
+        "path": "backend/routes/ai.js:736",
         "route": "/family-reunification-plan",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -6519,7 +6672,7 @@
   },
   {
     "name": "Gap Beneficiaries Goals Referrals Lack AI Endpoints For Risk Pre",
-    "canonicalKey": "ai beneficiaries endpoints for gap goals lack pre referrals risk",
+    "canonicalKey": "ai beneficiary endpoint for gap goal lack pre referral risk",
     "aliases": [],
     "kinds": [
       "page"
@@ -6545,7 +6698,7 @@
   },
   {
     "name": "Gap Claims Without Claim",
-    "canonicalKey": "claim claims gap without",
+    "canonicalKey": "claim gap without",
     "aliases": [
       "Gap Claims Without Claim Page"
     ],
@@ -6588,7 +6741,7 @@
   },
   {
     "name": "Gap Communications Lacks Generate Communication Plan",
-    "canonicalKey": "communication communications gap generate lacks plan",
+    "canonicalKey": "communication gap generate lack plan",
     "aliases": [],
     "kinds": [
       "page"
@@ -6786,7 +6939,7 @@
   },
   {
     "name": "Gap Limited Frontend Only 4 Pages For A 18",
-    "canonicalKey": "18 4 a for frontend gap limited only pages",
+    "canonicalKey": "18 4 a for frontend gap limited only page",
     "aliases": [],
     "kinds": [
       "page"
@@ -6819,7 +6972,7 @@
   },
   {
     "name": "Gap Limited Frontend Only4 Pages For A18 Page",
-    "canonicalKey": "a18 for frontend gap limited only4 pages",
+    "canonicalKey": "a18 for frontend gap limited only4 page",
     "aliases": [],
     "kinds": [
       "page"
@@ -6845,7 +6998,7 @@
   },
   {
     "name": "Gap Limited Integration With Social Service Databases Only Stub",
-    "canonicalKey": "databases gap integration limited only service social stub with",
+    "canonicalKey": "database gap integration limited only service social stub with",
     "aliases": [],
     "kinds": [
       "page"
@@ -6940,7 +7093,7 @@
   },
   {
     "name": "Gap Limited Notifications Module 0 Explicit",
-    "canonicalKey": "0 explicit gap limited notifications",
+    "canonicalKey": "0 explicit gap limited notification",
     "aliases": [],
     "kinds": [
       "page"
@@ -6966,7 +7119,7 @@
   },
   {
     "name": "Gap Limited Notifications Module0 Explicit",
-    "canonicalKey": "explicit gap limited module0 notifications",
+    "canonicalKey": "explicit gap limited module0 notification",
     "aliases": [],
     "kinds": [
       "page"
@@ -6992,7 +7145,7 @@
   },
   {
     "name": "Gap Limited Uscis Integration Only Stubs In",
-    "canonicalKey": "gap in integration limited only stubs uscis",
+    "canonicalKey": "gap in integration limited only stub uscis",
     "aliases": [],
     "kinds": [
       "page"
@@ -7600,15 +7753,12 @@
   },
   {
     "name": "Gap No Webhooks For Uspto Docket Updates",
-    "canonicalKey": "docket for gap no update uspto webhook",
-    "aliases": [
-      "Gap No Webhooks For Uspto Docket Updates Page"
-    ],
+    "canonicalKey": "docket for gap no uspto webhook",
+    "aliases": [],
     "kinds": [
       "page"
     ],
     "routes": [
-      "/GapNoWebhooksForUsptoDocketUpdatesPage",
       "/gap-no-webhooks-for-uspto-docket-updates"
     ],
     "sourceProjects": [
@@ -7631,7 +7781,26 @@
         "path": "client/src/components/Layout.jsx:72",
         "route": "/gap-no-webhooks-for-uspto-docket-updates",
         "originApp": "legal-compliance-risk/immigration-case-manager"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Gap No Webhooks For Uspto Docket Updates Page",
+    "canonicalKey": "docket for gap no update uspto webhook",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoWebhooksForUsptoDocketUpdatesPage"
+    ],
+    "sourceProjects": [
+      "AIPatentResearchFiling"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/immigration-case-manager"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIPatentResearchFiling",
@@ -7643,7 +7812,7 @@
   },
   {
     "name": "Gap Servicesdirectory Lacks AI Matching Eligibility Scoring",
-    "canonicalKey": "ai eligibility gap lacks matching scoring servicesdirectory",
+    "canonicalKey": "ai eligibility gap lack matching scoring servicesdirectory",
     "aliases": [],
     "kinds": [
       "page"
@@ -8235,7 +8404,7 @@
       {
         "kind": "api",
         "sourceProject": "AINotaryDocumentVerification",
-        "path": "backend/routes/ai.js:393",
+        "path": "backend/routes/ai.js:394",
         "route": "/generate-summary",
         "originApp": "legal-compliance-risk/firmflow-ai-merged"
       },
@@ -8415,7 +8584,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:759",
+        "path": "backend/routes/ai.js:755",
         "route": "/hardship-evidence-suggest",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -8509,7 +8678,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:616",
+        "path": "backend/routes/ai.js:612",
         "route": "/hearing-prep-brief",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -8551,7 +8720,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:1047",
+        "path": "backend/routes/ai.js:1043",
         "route": "/hearing-qa-simulator",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -8933,6 +9102,32 @@
     ]
   },
   {
+    "name": "Integration Runs",
+    "canonicalKey": "integration runs",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/integration-runs"
+    ],
+    "sourceProjects": [
+      "AIImmigrationCaseManager"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/immigration-case-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIImmigrationCaseManager",
+        "path": "backend/src/routes/governedMatters.js:8",
+        "route": "/integration-runs",
+        "originApp": "legal-compliance-risk/immigration-case-manager"
+      }
+    ]
+  },
+  {
     "name": "Interpreter Match",
     "canonicalKey": "interpreter match",
     "aliases": [],
@@ -8954,7 +9149,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:679",
+        "path": "backend/routes/ai.js:675",
         "route": "/interpreter-match",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -9131,7 +9326,7 @@
   },
   {
     "name": "Limited Integration With Social Service Databases Only Stub",
-    "canonicalKey": "databases integration limited only service social stub with",
+    "canonicalKey": "database integration limited only service social stub with",
     "aliases": [],
     "kinds": [
       "page"
@@ -9804,7 +9999,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:793",
+        "path": "backend/routes/ai.js:789",
         "route": "/partner-org-referral",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -10062,13 +10257,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIeDiscoverySystem",
-        "path": "backend/routes/batch03Gaps.js:53",
-        "route": "pool",
-        "originApp": "legal-compliance-risk/public-records-search-agent"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIImmigrationCaseManager",
         "path": "backend/routes/gap-limited-notifications-module-0-explicit-.js:25",
         "route": "pool",
@@ -10139,10 +10327,24 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIeDiscoverySystem",
+        "path": "backend/routes/batch03Gaps.js:53",
+        "route": "pool",
+        "originApp": "legal-compliance-risk/public-records-search-agent"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIEstatePlanningDigitalLegacy",
         "path": "backend/routes/batch03Gaps.js:53",
         "route": "pool",
         "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIExportControlSanctionsScreener",
+        "path": "server/routes/batch03Gaps.js:53",
+        "route": "pool",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
       },
       {
         "kind": "api",
@@ -10199,13 +10401,6 @@
         "path": "backend/routes/gap-no-third-party-code-sdk-audit.js:25",
         "route": "pool",
         "originApp": "legal-compliance-risk/gdpr-data-mapping-privacy-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIExportControlSanctionsScreener",
-        "path": "server/routes/batch03Gaps.js:53",
-        "route": "pool",
-        "originApp": "legal-compliance-risk/automatedatagovernance"
       },
       {
         "kind": "api",
@@ -11179,10 +11374,10 @@
     ]
   },
   {
-    "name": "Redactions",
+    "name": "Redactions Page",
     "canonicalKey": "redaction",
     "aliases": [
-      "Redactions Page"
+      "Redactions"
     ],
     "kinds": [
       "page"
@@ -11303,7 +11498,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:782",
+        "path": "backend/routes/ai.js:778",
         "route": "/regulatory-update-brief",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -11561,7 +11756,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:568",
+        "path": "backend/routes/ai.js:564",
         "route": "/samples",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -11973,7 +12168,7 @@
   },
   {
     "name": "Servicesdirectory Lacks AI Matching Eligibility Scoring",
-    "canonicalKey": "ai eligibility lacks matching scoring servicesdirectory",
+    "canonicalKey": "ai eligibility lack matching scoring servicesdirectory",
     "aliases": [],
     "kinds": [
       "page"
@@ -12055,7 +12250,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:725",
+        "path": "backend/routes/ai.js:721",
         "route": "/sponsor-petition-draft",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -12164,7 +12359,7 @@
   },
   {
     "name": "Stats Summary",
-    "canonicalKey": "stats summary",
+    "canonicalKey": "stat summary",
     "aliases": [],
     "kinds": [
       "api"
@@ -12821,7 +13016,7 @@
   },
   {
     "name": "Summarize Appeals History",
-    "canonicalKey": "appeals history summarize",
+    "canonicalKey": "appeal history summarize",
     "aliases": [],
     "kinds": [
       "api"
@@ -13172,7 +13367,7 @@
       {
         "kind": "api",
         "sourceProject": "AIRefugeeAsylumCaseManager",
-        "path": "backend/routes/ai.js:1035",
+        "path": "backend/routes/ai.js:1031",
         "route": "/translation-helper",
         "originApp": "legal-compliance-risk/immigration-case-manager"
       },
@@ -13186,10 +13381,10 @@
     ]
   },
   {
-    "name": "Trauma Flags",
+    "name": "Trauma Flags Page",
     "canonicalKey": "flag trauma",
     "aliases": [
-      "Trauma Flags Page"
+      "Trauma Flags"
     ],
     "kinds": [
       "page"
